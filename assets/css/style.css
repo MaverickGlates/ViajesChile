@@ -4,7 +4,9 @@ body {
   margin: 0;
   color: white;
 }
-
+.pop{
+  font-size: 17px;
+}
 .icon-center{
   color: white;
   background-color: #1798c1;
