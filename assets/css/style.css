@@ -7,6 +7,9 @@ body {
 .pop{
   font-size: 17px;
 }
+.listnav{
+  font-family: "OpenSans",sans-serif;
+}
 .icon-center{
   color: white;
   background-color: #1798c1;
