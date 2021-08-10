@@ -2,7 +2,7 @@
 <html lang="es" dir="ltr">
 
 <head>
-  <meta name="author" content="Francisco Atal, Alexander Gutiérrez, Gad Piñones, Joaquin Ryks, Myrian Ortiz" />
+  <meta name="author" content="Alexander Gutiérrez" />
   <meta charset="UTF-8" />
   <title>Viajes Chile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +36,7 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#start">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="#aboutus">Quienes Somos</a></li>
           <li class="nav-item"><a class="nav-link" href="#salient">Destacados</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
@@ -69,7 +69,7 @@
       </a>
   </header>
   <!------------------------------------------------------ ABOUT US  FIRST SECTION------------------------------------------------------>
-  <section id="aboutus">
+  <section class="container d-none d-md-block" id="aboutus">
     <h1 class="text-center my-3">¿Quiénes somos?</h1>
     <hr>
   </section>
@@ -93,7 +93,7 @@
       <div class="icon-center"><i class="ocultar-mostrar2 fa fa-anchor pop" aria-hidden="true"></i></div>
     </div>
     <div class="col-4">
-      <div class="icon-center"><i class="fas fa-paint-brush pop"></i></div>
+      <div class="icon-center"><i class="ocultar-mostrar3 fa fa-car"></i></div>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ad et vitae alias, veritatis earum neque rem
         consectetur mollitia itaque nulla soluta,sit amet consectetur adipisicing elit. Optio ad et vitae alias,
         veritatis earum neque rem
@@ -113,8 +113,8 @@
         <div class="card">
           <img src="assets/img/card1.jpg" width="316" height="180" class="card-img-top" alt="receta-1">
           <div class="card-body">
-            <h5 class="card-title font-weight-bold fondo-plomo">Disfruta</h5>
-            <p class="card-text font-weight-regular fondo-plomo">Mus enim elementum dignissim class eleifend justo, ut
+            <h5 class="card-title font-weight-bold fondo-plomo disfruta">Disfruta</h5>
+            <p class="card-text font-weight-regular fondo-plomo disfrutatxt">Mus enim elementum dignissim class eleifend justo, ut
               nunc magnis est vulputate nostra,
               blandit erat luctus faucibus orci.</p>
           </div>
@@ -123,8 +123,8 @@
         <div class="card">
           <img src="assets/img/card2.jpg" width="316" height="180" class="card-img-top" alt="receta-2">
           <div class="card-body">
-            <h5 class="card-title font-weight-bold fondo-plomo">Viaja</h5>
-            <p class="card-text fondo-plomo">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+            <h5 class="card-title font-weight-bold fondo-plomo viaja">Viaja</h5>
+            <p class="card-text fondo-plomo viajatxt">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
               lacinia sed
               faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
           </div>
@@ -133,8 +133,8 @@
         <div class="card">
           <img src="assets/img/card3.jpg" width="316" height="180" class="card-img-top" alt="receta-2">
           <div class="card-body">
-            <h5 class="card-title font-weight-bold fondo-plomo">Comparte</h5>
-            <p class="card-text fondo-plomo">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+            <h5 class="card-title font-weight-bold fondo-plomo comparte">Comparte</h5>
+            <p class="card-text fondo-plomo compartetxt">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
               lacinia sed
               faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
           </div>
@@ -144,17 +144,16 @@
         <div class="card">
           <img src="assets/img/card4.jpg" width="316" height="180" class="card-img-top" alt="receta-3">
           <div class="card-body">
-            <h5 class="card-title font-weight-bold fondo-plomo">Sueña</h5>
-            <p class="card-text fondo-plomo">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet
+            <h5 class="card-title font-weight-bold fondo-plomo sueña">Sueña</h5>
+            <p class="card-text fondo-plomo sueñatxt">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet
               ac eleifend
               risus, urna auctor inceptos mattis dapibus.</p>
           </div>
         </div>
-      </div>
     </div>
   </section>
 
-  <!----------------------------CONTACT THIRD SECTION------------------------------------------------------>
+  <!-------------------------------------------------------------------CONTACT THIRD SECTION------------------------------------------------------------------->
 
   <section id="contact">
     <h3 class="text-center my-5">Contacto</h3>
@@ -165,18 +164,17 @@
     <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
   </section>
 
-  <!------------------------------------------------------FOOTER SECTION---------------------------------------------------->
+  <!-------------------------------------------------------------------FOOTER SECTION----------------------------------------------------------------->
 
-  <footer id="footer" class="container-fluid  d-md-block  bg-info section-icons fondo-footer">
+  <footer id="footer" class="container-fluid  d-md-block  bg-info ">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 pagos-creditos hidden-xs">
-          <h4 id="viajes" class="pt-1 font-weight-bold" data-toggle="tooltip" data-placement="top"
-            title="Viaja junto a con nosotros">VIAJES CHILE</h4>
+        <div class="col">
+          <h4 class="pt-2 font-weight-bold" data-toggle="tooltip" data-placement="top"
+            title="Viaja junto a nosotros">VIAJES CHILE</h4>
         </div>
-        <div class="col-lg-8 text-right fa-iconos-credito pt-1 foot">
-          <a href="https://github.com/MaverickGlates/ViajesChile/" target="_blank"><i
-              class="fab fa-github-square fa-2x icon"></i></a>
+        <div class="col text-right pt-1">
+          <a href="https://github.com/MaverickGlates/ViajesChile/" target="_blank"><i class="fab fa-github-square fa-2x icon"></i></a>
           <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x icon"></i></a>
           <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-2x icon"></i></a>
           <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-2x icon"></i></a>
